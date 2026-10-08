@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DataTech — Pixel y Mente</title>
+<meta name="description" content="Cómo usamos datos y analítica en Pixel y Mente para tomar mejores decisiones de diseño: herramientas, glosario y un caso práctico.">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="assets/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#15162a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html#inicio" class="brand">
+      <img src="assets/logo-mark.png" alt="Pixel y Mente" width="38" height="38">
+      <span>Pixel y Mente</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-links">
+      <a href="index.html#inicio" data-page="index.html">Inicio</a>
+      <a href="tecno-estudio.html" data-page="tecno-estudio.html">Tecno Estudio</a>
+      <a href="digital-trends.html" data-page="digital-trends.html">Digital Trends</a>
+      <a href="datatech.html" data-page="datatech.html" class="active">DataTech</a>
+      <a href="explora-digital.html" data-page="explora-digital.html">Explora Digital</a>
+      <a href="ia-mente.html" data-page="ia-mente.html">IA&amp;Mente</a>
+      <a href="index.html#contacto" class="nav-cta">Contáctanos</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="article-hero">
+    <div class="grid-veil" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="pill">DataTech</span>
+      <h1>El diseño también se mide: datos al servicio de las decisiones.</h1>
+      <p class="lead">Un diseño bonito que nadie entiende no sirve. En DataTech usamos datos y analítica para confirmar —o corregir— lo que la intuición del diseño propone.</p>
+      <div class="article-meta">
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 13 min de lectura</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg> Actualizado en 2026</span>
+        <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V10M12 19V5M20 19v-7"/></svg> Datos &amp; Analítica</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap article-body">
+    <aside class="toc">
+      <div class="toc-label">En este artículo</div>
+      <a href="#que-es">Qué es DataTech</a>
+      <a href="#por-que">Por qué el dato importa en diseño</a>
+      <a href="#herramientas">Herramientas que usamos</a>
+      <a href="#glosario">Glosario básico de métricas</a>
+      <a href="#caso">Un caso práctico</a>
+      <a href="#faq">Preguntas frecuentes</a>
+    </aside>
+
+    <article class="prose">
+      <h2 id="que-es">Qué es DataTech</h2>
+      <p>DataTech es el área de Pixel y Mente encargada de cerrar el círculo entre diseño y resultados. Diseñamos con intención, pero no nos quedamos solo con la intuición: medimos cómo se comporta cada interfaz una vez publicada y usamos esos datos para tomar la siguiente decisión de diseño, en lugar de adivinar.</p>
+      <p>Esto no significa convertir cada proyecto en un ejercicio puramente numérico. Los datos no reemplazan el criterio creativo; lo afinan. Nos dicen dónde mirar, no qué sentir.</p>
+
+      <h2 id="por-que">Por qué el dato importa en diseño</h2>
+      <p>Muchas decisiones de diseño que parecen subjetivas en realidad se pueden observar con datos: en qué punto de una página la gente deja de hacer scroll, qué botón recibe más clics, cuánto tiempo tarda alguien en completar un formulario. Estas señales nos permiten defender —o corregir— una decisión visual con algo más sólido que “a mí me gusta más así”.</p>
+
+      <div class="pull-quote">
+        Diseñar sin medir es opinar. Medir sin diseñar es solo un número sin contexto.
+        <cite>Principio de trabajo — DataTech</cite>
+      </div>
+
+      <h3>Tres beneficios directos</h3>
+      <ul>
+        <li><strong>Decisiones objetivas.</strong> Reducen el debate interminable sobre qué versión de un diseño “se ve mejor”.</li>
+        <li><strong>Detección temprana de problemas.</strong> Un aumento repentino de abandono en un formulario suele señalar un problema de usabilidad concreto.</li>
+        <li><strong>Justificación ante el negocio.</strong> Los datos traducen decisiones de diseño a un lenguaje que un equipo comercial también entiende.</li>
+      </ul>
+
+      <h2 id="herramientas">Herramientas que usamos</h2>
+      <dl class="definition-grid">
+        <div class="definition">
+          <dt>Analítica web</dt>
+          <dd>Medimos tráfico, origen de visitas y comportamiento general del sitio para entender quién llega y desde dónde.</dd>
+        </div>
+        <div class="definition">
+          <dt>Mapas de calor</dt>
+          <dd>Visualizamos en qué zonas de la pantalla se concentra la atención y el clic, para validar jerarquías visuales.</dd>
+        </div>
+        <div class="definition">
+          <dt>Pruebas A/B</dt>
+          <dd>Comparamos dos versiones de una misma pieza con tráfico real, cuando el volumen del proyecto lo permite.</dd>
+        </div>
+        <div class="definition">
+          <dt>Paneles de métricas de redes</dt>
+          <dd>Seguimos alcance, guardados y comentarios de cada publicación para entender qué formatos conectan mejor.</dd>
+        </div>
+      </dl>
+
+      <div class="figure-block">
+        <div class="frame" style="background:linear-gradient(120deg, rgba(74,222,128,.16), rgba(34,211,238,.16)); flex-direction:column; gap:14px;">
+          <div style="display:flex; gap:26px; align-items:flex-end; height:90px;">
+            <span style="width:16px; height:38%; background:var(--verde); border-radius:4px;"></span>
+            <span style="width:16px; height:62%; background:var(--celeste); border-radius:4px;"></span>
+            <span style="width:16px; height:48%; background:var(--amarillo); border-radius:4px;"></span>
+            <span style="width:16px; height:80%; background:var(--morado); border-radius:4px;"></span>
+            <span style="width:16px; height:56%; background:var(--magenta); border-radius:4px;"></span>
+          </div>
+          <div style="font-size:.85rem; color:var(--text-muted);">Lectura simplificada de un panel de métricas semanal</div>
+        </div>
+        <figcaption>Así revisamos, cada semana, cómo se está comportando un producto digital publicado.</figcaption>
+      </div>
+
+      <h2 id="glosario">Glosario básico de métricas</h2>
+      <p>Para que estas conversaciones sean claras con cualquier cliente, usamos siempre las mismas definiciones:</p>
+      <dl class="definition-grid">
+        <div class="definition">
+          <dt>Tasa de conversión</dt>
+          <dd>El porcentaje de personas que completan la acción que le pedimos al diseño: comprar, escribir, registrarse.</dd>
+        </div>
+        <div class="definition">
+          <dt>Tasa de rebote</dt>
+          <dd>Cuántas personas se van del sitio después de ver una sola página, sin interactuar con nada más.</dd>
+        </div>
+        <div class="definition">
+          <dt>Tiempo en página</dt>
+          <dd>Cuánto tiempo pasa alguien realmente leyendo o interactuando antes de irse.</dd>
+        </div>
+        <div class="definition">
+          <dt>Alcance</dt>
+          <dd>El número de cuentas distintas que vieron una publicación, sin contar repeticiones.</dd>
+        </div>
+      </dl>
+
+      <h2 id="caso">Un caso práctico</h2>
+      <p>En un proyecto reciente, el mapa de calor de un sitio mostró que casi nadie llegaba al formulario de contacto ubicado al final de la página. La solución no fue rediseñar todo el sitio: bastó con mover el formulario más arriba y añadir un botón fijo. En la siguiente medición, las conversiones subieron de forma notable, sin cambiar una sola línea de la identidad visual.</p>
+      <p>Este tipo de ajustes —pequeños, medibles y basados en evidencia— son el corazón de cómo trabajamos en DataTech: no se trata de rediseñar por rediseñar, sino de escuchar lo que el comportamiento real de las personas nos está diciendo.</p>
+
+      <div class="tag-row">
+        <span class="tag">Analítica</span>
+        <span class="tag">Métricas de diseño</span>
+        <span class="tag">Optimización</span>
+        <span class="tag">Toma de decisiones</span>
+      </div>
+
+      <h2 id="faq">Preguntas frecuentes</h2>
+      <h3>¿Necesito muchos usuarios para que los datos sirvan?</h3>
+      <p>No siempre. Algunas señales, como los mapas de calor o el análisis cualitativo de sesiones, son útiles incluso con volúmenes pequeños de tráfico.</p>
+      <h3>¿Con qué frecuencia revisan las métricas de un proyecto?</h3>
+      <p>Depende del proyecto, pero lo habitual es una revisión mensual, con reportes más cortos cada semana durante los primeros meses después de un lanzamiento.</p>
+      <h3>¿DataTech reemplaza al diseño intuitivo?</h3>
+      <p>No. Lo complementa. Seguimos empezando cada proyecto con una hipótesis de diseño; los datos solo nos dicen si esa hipótesis se sostiene en la práctica.</p>
+    </article>
+  </section>
+
+  <section class="related">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="pill">Sigue explorando</span>
+        <h2>Otras áreas del estudio</h2>
+      </div>
+      <div class="related-grid">
+        <a href="tecno-estudio.html" class="related-card reveal">
+          <div class="tag-dot" style="background:var(--celeste);"></div>
+          <h4>Tecno Estudio</h4>
+          <p>Nuestro proceso de diseño y desarrollo.</p>
+        </a>
+        <a href="digital-trends.html" class="related-card reveal">
+          <div class="tag-dot" style="background:var(--magenta);"></div>
+          <h4>Digital Trends</h4>
+          <p>Tendencias de diseño y redes sociales.</p>
+        </a>
+        <a href="explora-digital.html" class="related-card reveal">
+          <div class="tag-dot" style="background:var(--naranja);"></div>
+          <h4>Explora Digital</h4>
+          <p>Transformación digital para marcas y emprendedores.</p>
+        </a>
+        <a href="ia-mente.html" class="related-card reveal">
+          <div class="tag-dot" style="background:var(--morado);"></div>
+          <h4>IA&amp;Mente</h4>
+          <p>Inteligencia artificial aplicada al proceso creativo.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--tight">
+    <div class="wrap">
+      <div class="cta-band reveal">
+        <h2>¿Quieres saber qué dicen los datos de tu marca?</h2>
+        <p>Hacemos una primera revisión de tu presencia digital sin costo.</p>
+        <div class="btn-row">
+          <a href="index.html#contacto" class="btn btn-primary">Escríbenos ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html#inicio" class="brand">
+          <img src="assets/logo-mark.png" alt="Pixel y Mente" width="38" height="38">
+          <span>Pixel y Mente</span>
+        </a>
+        <p>Estudio de diseño digital. Pensamiento estratégico y ejecución precisa para marcas que quieren aprender, crear y conectar.</p>
+        <div class="social-row" style="margin-top:20px;">
+          <a href="https://x.com/pixelymente" aria-label="Pixel y Mente en X" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.5 22H1.4l8.1-9.3L1 2h7.2l5 6.6L18.9 2Zm-1.2 18h1.7L7.4 3.9H5.6L17.7 20Z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/pixel_ymente/" aria-label="Pixel y Mente en Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@pixelymente" aria-label="Pixel y Mente en TikTok" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2h-3.1v13.4a2.9 2.9 0 1 1-2.1-2.8V9.4a6 6 0 1 0 5.2 6V8.2a7.6 7.6 0 0 0 4.5 1.5V6.6a4.4 4.4 0 0 1-4.5-4.6Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Áreas</h4>
+        <ul>
+          <li><a href="tecno-estudio.html">Tecno Estudio</a></li>
+          <li><a href="digital-trends.html">Digital Trends</a></li>
+          <li><a href="datatech.html">DataTech</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Más áreas</h4>
+        <ul>
+          <li><a href="explora-digital.html">Explora Digital</a></li>
+          <li><a href="ia-mente.html">IA&amp;Mente</a></li>
+          <li><a href="index.html#inicio">Inicio</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Estudio</h4>
+        <ul>
+          <li><a href="index.html#contacto">Contáctanos</a></li>
+          <li><a href="mailto:hola@pixelymente.studio">hola@pixelymente.studio</a></li>
+          <li>San Salvador, El Salvador</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Pixel y Mente. Todos los derechos reservados.</span>
+      <span>Aprende, crea y conecta.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
